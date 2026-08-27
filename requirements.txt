@@ -1,0 +1,4 @@
+pyhton-dotenv
+pandas
+numpy
+ 
