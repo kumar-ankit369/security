@@ -29,3 +29,11 @@ DATA_VALIDATION_VALID_DIR_NAME : str = "valid"
 DATA_VALIDATION_INVALID_DIR_NAME : str = "invalid"
 DATA_VALIDATION_DRIFT_REPORT_DIR_NAME : str = "drift_report"
 DATA_VALIDATION_DRIFT_REPORT_FILE_NAME : str = "report.yaml"
+PREPROCESSING_OBJECT_FILE_NAME : str = "preprocessor.pkl"
+
+
+DATA_TRANSFORMATION_IMPUTER_PARAMS : dict = {
+    "missing_values": np.nan,
+    "n_neighbours": 3,
+    "weights": "uniform",
+}
